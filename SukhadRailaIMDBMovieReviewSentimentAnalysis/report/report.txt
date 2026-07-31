@@ -1,0 +1,14 @@
+IMDB Movie Review Sentiment Analysis - Model Report
+============================================================
+
+Architecture:
+- Embedding layer (10000 vocab size, 16 dimensions)
+- GlobalAveragePooling (Custom implementation)
+- Dense layer (16 units, ReLU activation)
+- Dense output layer (1 unit, Sigmoid activation)
+
+Evaluation Results:
+- Test Loss: 0.5513
+- Test Accuracy: 0.8538
+
+The model was built using PyTorch and achieved solid accuracy on the test set.
